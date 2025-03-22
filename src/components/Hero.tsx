@@ -23,18 +23,18 @@ const Hero = () => {
             </div>
             
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-display font-bold text-gray-900 leading-tight">
-              NITTER <span className="text-nitter-blue">R&D Club</span>
+              NITTE <span className="text-nitter-blue">R&D Club</span> <span className="text-nitter-darkBlue">Bengaluru</span>
             </h1>
             
             <p className="text-xl text-gray-600 max-w-lg">
-              Fostering innovation, research, and development at the National Institute of Technology, Tiruchirappalli.
+              Fostering innovation, research, and development at NITTE Institute of Technology, Bengaluru.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild size="lg" className="bg-nitter-blue hover:bg-nitter-blue/90 text-white">
-                <Link to="/join" className="flex items-center">
+                <a href="https://forms.gle/2oU28wVAon51cPwf6" target="_blank" rel="noopener noreferrer" className="flex items-center">
                   Join Us <ChevronRight className="ml-1 h-4 w-4" />
-                </Link>
+                </a>
               </Button>
               <Button asChild variant="outline" size="lg" className="border-nitter-blue text-nitter-blue hover:bg-nitter-blue/10">
                 <Link to="/projects">Explore Projects</Link>
@@ -46,14 +46,10 @@ const Hero = () => {
             <div className="aspect-w-4 aspect-h-3 relative">
               <div className="absolute inset-0 glass-card rounded-2xl p-6 hover-scale transition-all duration-500">
                 <img 
-                  src="/lovable-uploads/97df9a30-db3b-4f5d-9bd6-e8b9a0011454.png" 
-                  alt="NITTER R&D Club" 
-                  className="w-full h-full object-cover rounded-lg opacity-70"
+                  src="/lovable-uploads/rnd-club-logo.png" 
+                  alt="NITTE R&D Club" 
+                  className="w-full h-full object-contain rounded-lg"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-lg flex flex-col justify-end p-6">
-                  <h3 className="text-white text-xl font-semibold mb-2">Innovate. Research. Develop.</h3>
-                  <p className="text-white/80">Join us in shaping the future of technology and innovation</p>
-                </div>
               </div>
             </div>
             

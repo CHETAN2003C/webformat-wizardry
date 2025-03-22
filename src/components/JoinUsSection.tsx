@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Link } from 'react-router-dom';
 
 const JoinUsSection = () => {
   return (
@@ -22,7 +21,7 @@ const JoinUsSection = () => {
               </div>
               
               <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900">
-                Become a part of NITTER R&D Club
+                Become a part of NITTE R&D Club
               </h2>
               
               <p className="text-gray-600">
@@ -77,20 +76,19 @@ const JoinUsSection = () => {
               </div>
               
               <Button asChild size="lg" className="bg-nitter-blue hover:bg-nitter-blue/90 text-white">
-                <Link to="/join">Apply Now</Link>
+                <a href="https://forms.gle/2oU28wVAon51cPwf6" target="_blank" rel="noopener noreferrer">Apply Now</a>
               </Button>
             </div>
             
             <div className="relative hidden md:block">
-              <div className="aspect-video bg-gradient-to-tr from-blue-100 to-blue-50 rounded-xl overflow-hidden hover-scale">
+              <div className="aspect-video rounded-xl overflow-hidden hover-scale">
                 <img 
-                  src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3" 
-                  alt="NITTER R&D Club members working together" 
-                  className="w-full h-full object-cover opacity-90 mix-blend-overlay"
+                  src="/lovable-uploads/rnd-club-logo.png" 
+                  alt="NITTE R&D Club logo" 
+                  className="w-full h-full object-contain bg-white p-4"
                 />
-                <div className="absolute inset-0 flex flex-col justify-center items-center p-8 text-center">
-                  <h3 className="text-2xl font-semibold text-gray-900 mb-4">Join Our Community</h3>
-                  <p className="text-gray-700">Connect with researchers, innovators, and industry experts</p>
+                <div className="absolute inset-0 flex flex-col justify-end items-center p-8 text-center bg-gradient-to-t from-white/80 to-transparent">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">"Dare to do Research and Innovate"</h3>
                 </div>
               </div>
               

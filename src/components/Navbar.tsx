@@ -38,8 +38,13 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-2">
+          <img 
+            src="/lovable-uploads/nitte-logo.png" 
+            alt="NITTE Logo" 
+            className="h-10 w-auto"
+          />
           <div className="font-display font-bold text-2xl text-nitter-blue transition-all duration-300">
-            NITTER <span className="text-nitter-darkBlue">R&D Club</span>
+            NITTE <span className="text-nitter-darkBlue">R&D Club</span>
           </div>
         </Link>
 
@@ -55,7 +60,7 @@ const Navbar = () => {
             </Link>
           ))}
           <Button asChild className="bg-nitter-blue hover:bg-nitter-blue/90 text-white">
-            <Link to="/join">Join Us</Link>
+            <a href="https://forms.gle/2oU28wVAon51cPwf6" target="_blank" rel="noopener noreferrer">Join Us</a>
           </Button>
         </div>
 
@@ -85,7 +90,7 @@ const Navbar = () => {
               </Link>
             ))}
             <Button asChild className="w-full bg-nitter-blue hover:bg-nitter-blue/90 text-white">
-              <Link to="/join" onClick={() => setIsMenuOpen(false)}>Join Us</Link>
+              <a href="https://forms.gle/2oU28wVAon51cPwf6" target="_blank" rel="noopener noreferrer" onClick={() => setIsMenuOpen(false)}>Join Us</a>
             </Button>
           </div>
         </div>

@@ -55,16 +55,17 @@ const About = () => {
                 </h1>
                 
                 <p className="text-gray-600 text-lg">
-                  NITTER R&D Club is a premier research and development organization at the National Institute of Technology, Tiruchirappalli, fostering innovation and excellence across various engineering disciplines.
+                  NITTE R&D Club is a premier research and development organization at NITTE Institute of Technology, Bengaluru, 
+                  fostering innovation and excellence across various engineering disciplines.
                 </p>
               </div>
               
               <div className="relative hidden md:block opacity-0 animate-fade-in" style={{animationDelay: '300ms', animationFillMode: 'forwards'}}>
                 <div className="aspect-w-4 aspect-h-3 glass-card rounded-2xl p-6 hover-scale">
                   <img 
-                    src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3" 
-                    alt="NITTER R&D Club members" 
-                    className="w-full h-full object-cover rounded-lg"
+                    src="/lovable-uploads/rnd-club-logo.png" 
+                    alt="NITTE R&D Club" 
+                    className="w-full h-full object-contain rounded-lg"
                   />
                 </div>
                 
@@ -106,11 +107,11 @@ const About = () => {
             <div className="glass-card rounded-2xl p-8 md:p-12">
               <div className="space-y-6 text-gray-700">
                 <p>
-                  Founded in 2005, the NITTER R&D Club began as a small group of enthusiastic engineering students with a passion for research and innovation. What started as informal gatherings to discuss technical ideas quickly evolved into a structured organization with dedicated facilities and faculty support.
+                  Founded in 2020, the NITTE R&D Club began as a small group of enthusiastic engineering students with a passion for research and innovation. What started as informal gatherings to discuss technical ideas quickly evolved into a structured organization with dedicated facilities and faculty support.
                 </p>
                 
                 <p>
-                  Over the years, the club has grown exponentially, both in terms of membership and scope of activities. Today, it stands as one of the premier student-led research organizations in the country, with numerous accolades, patents, and publications to its credit.
+                  Over the years, the club has grown exponentially, both in terms of membership and scope of activities. Today, it stands as one of the premier student-led research organizations in the region, with numerous accolades, patents, and publications to its credit.
                 </p>
                 
                 <p>
@@ -131,7 +132,7 @@ const About = () => {
             <div className="text-center mb-12">
               <h2 className="section-heading inline-block">Meet Our Team</h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                Our dedicated team of faculty advisors and student coordinators who guide the activities and initiatives of the NITTER R&D Club.
+                Our dedicated team of faculty advisors and student coordinators who guide the activities and initiatives of the NITTE R&D Club.
               </p>
             </div>
             
@@ -156,7 +157,7 @@ const About = () => {
             
             <div className="text-center mt-12">
               <Button asChild className="bg-nitter-blue hover:bg-nitter-blue/90">
-                <Link to="/join">Join Our Team</Link>
+                <a href="https://forms.gle/2oU28wVAon51cPwf6" target="_blank" rel="noopener noreferrer">Join Our Team</a>
               </Button>
             </div>
           </div>

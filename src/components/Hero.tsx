@@ -22,12 +22,7 @@ const Hero = () => {
               <p className="text-sm font-medium text-nitter-blue">Innovation & Excellence</p>
             </div>
             
-            <div className="flex items-center gap-4">
-              <img 
-                src="/lovable-uploads/7b1feaf1-3270-4f11-a03f-cd792ec35d13.png" 
-                alt="R&D Club Logo" 
-                className="h-16 w-auto"
-              />
+            <div>
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-display font-bold text-gray-900 leading-tight">
                 NITTE <span className="text-nitter-blue">R&D Club</span> <span className="text-nitter-darkBlue">Bengaluru</span>
               </h1>

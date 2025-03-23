@@ -22,7 +22,7 @@ const Hero = () => {
               <p className="text-sm font-medium text-nitter-blue">Innovation & Excellence</p>
             </div>
             
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center gap-4">
               <img 
                 src="/lovable-uploads/7b1feaf1-3270-4f11-a03f-cd792ec35d13.png" 
                 alt="R&D Club Logo" 

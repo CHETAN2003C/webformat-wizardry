@@ -46,7 +46,7 @@ const Hero = () => {
             <div className="aspect-w-4 aspect-h-3 relative">
               <div className="absolute inset-0 glass-card rounded-2xl p-6 hover-scale transition-all duration-500">
                 <img 
-                  src="/lovable-uploads/rnd-club-logo.png" 
+                  src="/lovable-uploads/7b1feaf1-3270-4f11-a03f-cd792ec35d13.png" 
                   alt="NITTE R&D Club" 
                   className="w-full h-full object-contain rounded-lg"
                 />

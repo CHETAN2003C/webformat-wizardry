@@ -83,7 +83,7 @@ const JoinUsSection = () => {
             <div className="relative hidden md:block">
               <div className="aspect-video rounded-xl overflow-hidden hover-scale">
                 <img 
-                  src="/lovable-uploads/rnd-club-logo.png" 
+                  src="/lovable-uploads/7b1feaf1-3270-4f11-a03f-cd792ec35d13.png" 
                   alt="NITTE R&D Club logo" 
                   className="w-full h-full object-contain bg-white p-4"
                 />

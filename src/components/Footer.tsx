@@ -22,7 +22,7 @@ const Footer = () => {
               </div>
             </Link>
             <p className="text-gray-600 mb-4 max-w-md">
-              Fostering innovation, research, and development at NITTE Institute of Technology, Bengaluru.
+              Fostering innovation, research, and development at NITTE Meenakshi Institute of Technology, Bengaluru.
             </p>
             <div className="flex space-x-4">
               <a 
@@ -67,7 +67,7 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin className="w-5 h-5 text-nitter-blue mr-2 mt-1 flex-shrink-0" />
                 <span className="text-gray-600">
-                  NITTE Institute of Technology<br />
+                  NITTE Meenakshi Institute of Technology<br />
                   Bengaluru - 560064<br />
                   Karnataka, India
                 </span>

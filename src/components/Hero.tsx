@@ -22,12 +22,19 @@ const Hero = () => {
               <p className="text-sm font-medium text-nitter-blue">Innovation & Excellence</p>
             </div>
             
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-display font-bold text-gray-900 leading-tight">
-              NITTE <span className="text-nitter-blue">R&D Club</span> <span className="text-nitter-darkBlue">Bengaluru</span>
-            </h1>
+            <div className="flex items-center space-x-4">
+              <img 
+                src="/lovable-uploads/7b1feaf1-3270-4f11-a03f-cd792ec35d13.png" 
+                alt="R&D Club Logo" 
+                className="h-16 w-auto"
+              />
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-display font-bold text-gray-900 leading-tight">
+                NITTE <span className="text-nitter-blue">R&D Club</span> <span className="text-nitter-darkBlue">Bengaluru</span>
+              </h1>
+            </div>
             
             <p className="text-xl text-gray-600 max-w-lg">
-              Fostering innovation, research, and development at NITTE Institute of Technology, Bengaluru.
+              Fostering innovation, research, and development at NITTE Meenakshi Institute of Technology, Bengaluru.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">

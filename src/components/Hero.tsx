@@ -49,9 +49,9 @@ const Hero = () => {
             </div>
           </div>
           
-          <div className="relative hidden md:block opacity-0 animate-fade-in" style={{animationDelay: '300ms', animationFillMode: 'forwards'}}>
-            <div className="aspect-w-4 aspect-h-3 relative">
-              <div className="absolute inset-0 glass-card rounded-2xl p-6 hover-scale transition-all duration-500">
+          <div className="relative hidden md:flex justify-center items-center opacity-0 animate-fade-in" style={{animationDelay: '300ms', animationFillMode: 'forwards'}}>
+            <div className="aspect-square w-full max-w-md relative">
+              <div className="absolute inset-0 glass-card rounded-2xl p-6 hover-scale transition-all duration-500 flex items-center justify-center">
                 <img 
                   src="/lovable-uploads/7b1feaf1-3270-4f11-a03f-cd792ec35d13.png" 
                   alt="NITTE R&D Club" 
